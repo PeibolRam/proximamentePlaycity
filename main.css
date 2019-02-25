@@ -1,0 +1,26 @@
+body {
+    background-color: #3e6282c7;
+    text-align: center;
+}
+
+img {
+    margin-top: 100px;
+    width: 300px;
+}
+
+.prox {
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 50px;
+    margin-top: 150px;
+}
+
+.url {
+    display: inline-block;
+    width: 350px;
+    background-color: #00000090;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+    letter-spacing: 3px;
+}
