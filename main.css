@@ -6,8 +6,9 @@
 }
 
 html {
-    background-image: radial-gradient(circle, #55879B, #23404D);
-    text-align: center;
+    height: 100%;
+    background: radial-gradient(#55879B, #23404D);
+    background-repeat: no-repeat;
 }
 
 .proxImg {
@@ -61,7 +62,8 @@ html {
 }
 
 .hero-image {
-    background: url(./imgs/bci.jpg);
+    background: url(./imgs/bci.png);
+    background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -69,7 +71,7 @@ html {
 }
 
 .wrapper:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 2s;
 }
 
