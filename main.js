@@ -1,6 +1,6 @@
-const gradient = document.querySelector(".gradient");
+const el = document.querySelector("#module");
 
-function onMouseMove(event) {
-    gradient.style.backgroundImage = 'radial-gradient(at ' + event.clientX + 'px ' + event.clientY + 'px, rgba(159,0,191,.9) 0, #4D4FA7 70%)';
-}
-document.addEventListener("mousemove", onMouseMove);
+el.addEventListener("mousemove", (e) => {
+    el.style.backgroundPositionX = -e.offsetX + "px";
+    el.style.backgroundPositionY = -e.offsetY + "px";
+});
